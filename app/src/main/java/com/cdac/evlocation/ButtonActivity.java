@@ -37,7 +37,7 @@ public class ButtonActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
-                goLink("http://localhost:8000/main.php?key=dsreddy&ChargeBoxID=DC001&cmd=RemoteStartTransaction&ConnectorID=1&idTag=abc123");
+                goLink("http://server.dsreddyconsultancy.co.in:8095/main.php?key=dsreddy&ChargeBoxID=DC001&cmd=RemoteStartTransaction&ConnectorID=1&idTag=abc123");
 
             }
 
@@ -45,51 +45,51 @@ public class ButtonActivity extends AppCompatActivity {
         STOP.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                goLink("http://localhost:8000/main.php?key=dsreddy&ChargeBoxID=DC001&cmd=RemoteStopTransaction&ConnectorID=1&idTag=abc123");
+                goLink("http://server.dsreddyconsultancy.co.in:8095/main.php?key=dsreddy&ChargeBoxID=DC001&cmd=RemoteStopTransaction&ConnectorID=1&idTag=abc123");
             }
         });
         STATUS.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                goLink("http://localhost:8000/main.php?key=dsreddy&ChargeBoxID=DC001&cmd=getConnectorState&ConnectorID=1");
+                goLink("http://server.dsreddyconsultancy.co.in:8095/main.php?key=dsreddy&ChargeBoxID=DC001&cmd=getConnectorState&ConnectorID=1");
             }
         });
         start1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                goLink("http://localhost:8000/main.php?key=dsreddy&ChargeBoxID=DC001&cmd=RemoteStartTransaction&ConnectorID=2&idTag=abc123");
+                goLink("http://server.dsreddyconsultancy.co.in:8095/main.php?key=dsreddy&ChargeBoxID=DC001&cmd=RemoteStartTransaction&ConnectorID=2&idTag=abc123");
 
             }
         });
         stop1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                goLink("http://localhost:8000/main.php?key=dsreddy&ChargeBoxID=DC001&cmd=RemoteStopTransaction&ConnectorID=2&idTag=abc123");
+                goLink("http://server.dsreddyconsultancy.co.in:8095/main.php?key=dsreddy&ChargeBoxID=DC001&cmd=RemoteStopTransaction&ConnectorID=2&idTag=abc123");
             }
         });
         status1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                goLink("http://localhost:8000/main.php?key=dsreddy&ChargeBoxID=DC001&cmd=getConnectorState&ConnectorID=2");
+                goLink("http://server.dsreddyconsultancy.co.in:8095/main.php?key=dsreddy&ChargeBoxID=DC001&cmd=getConnectorState&ConnectorID=2");
             }
         });
         start2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                goLink("http://localhost:8000/main.php?key=dsreddy&ChargeBoxID=DC001&cmd=RemoteStartTransaction&ConnectorID=3&idTag=abc123");
+                goLink("http://server.dsreddyconsultancy.co.in:8095/main.php?key=dsreddy&ChargeBoxID=DC001&cmd=RemoteStartTransaction&ConnectorID=3&idTag=abc123");
 
             }
         });
         stop2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                goLink("http://localhost:8000/main.php?key=dsreddy&ChargeBoxID=DC001&cmd=RemoteStopTransaction&ConnectorID=3&idTag=abc123");
+                goLink("http://server.dsreddyconsultancy.co.in:8095/main.php?key=dsreddy&ChargeBoxID=DC001&cmd=RemoteStopTransaction&ConnectorID=3&idTag=abc123");
             }
         });
         status2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                goLink("http://localhost:8000/main.php?key=dsreddy&ChargeBoxID=DC001&cmd=getConnectorState&ConnectorID=3");
+                goLink("http://server.dsreddyconsultancy.co.in:8095/main.php?key=dsreddy&ChargeBoxID=DC001&cmd=getConnectorState&ConnectorID=3");
             }
         });
 

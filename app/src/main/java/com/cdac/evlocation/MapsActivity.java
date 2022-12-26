@@ -116,7 +116,7 @@ public class MapsActivity<input, jsonObjectRequest> extends FragmentActivity imp
         for(evch temp:obj) {
             flag=-2;
             for( kk=1;kk<=3;kk++) {
-                String URL = "http://localhost:8000/main.php?key=dsreddy&ChargeBoxID=" + temp.chId + "&cmd=getConnectorState&ConnectorID=" + kk;
+                String URL = "http://server.dsreddyconsultancy.co.in:8095/main.php?key=dsreddy&ChargeBoxID=" + temp.chId + "&cmd=getConnectorState&ConnectorID=" + kk;
                 //String URL ="https://www.google.com";
 
                 request[ii] = new StringRequest(Request.Method.POST, URL,
